@@ -1,0 +1,143 @@
+.footer_container{
+
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 1rem 2rem;
+  
+}
+
+.footer_links{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_links h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: -.03rem;
+    line-height: 1.3;
+   
+}
+.copy-link a{
+    margin-left: 25rem;
+    text-align: center;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color:  #b2bec3;
+    justify-content: space-between;
+}
+.footer_links a{
+    display: flex;
+    text-align: center;
+    color:  #b2bec3;
+}
+
+.footer_links a:hover{
+   color: #00cec9;
+}
+.under_hr{
+    width: 90%;
+    margin-left: 2.5rem;
+    color: #bdc3c7;
+}
+.social_links{
+   margin-right: 2rem;
+}
+.soc_icon{
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+hr{
+    color: #bdc3c7;
+}
+.footer_links a{
+
+}
+
+
+
+@media screen and (max-width : 768px) {
+    .footer{       
+        flex-direction: column;
+        
+      }
+      
+      .footer_links{
+          flex-direction: column;
+      }
+      
+      .footer_links h3{
+          font-weight: 700;
+          font-size: 1.6rem;
+          margin-bottom: 1rem;
+          letter-spacing: -.03rem;
+          line-height: 1.3;
+         
+      }
+      .copy-link a{
+          font-size: 1.6rem;
+          margin-left: 25rem;
+          text-align: center;
+      }
+       .copyright_span{
+          font-size: 1.2rem;
+          margin-left: 4rem;
+          margin-top: 2rem;
+      }
+      .copyright{
+          flex-direction: column;
+      }
+      .footer_links a{
+          font-size: 1.4rem;
+          margin-left: 0.2rem;
+      }
+      
+      .social_links{
+         margin-right: 2rem;
+      }
+      .social_links .soc_icon{
+          font-size: 2.5rem;
+      }
+     
+      .footer_links a{
+      
+      }
+  
+    }
+    
+    @media screen and (max-width : 500px) {
+      
+          
+          .footer_links h3{
+             
+              font-size: 2rem;          
+          }
+
+          .copy-link a{
+              font-size: 1.8rem;
+             
+          }
+           .copyright_span{
+              font-size: 1.8rem;
+          }
+          .footer_links a{
+              font-size: 1.6rem;
+          }
+          
+          .social_links{
+             margin-right: 2rem;
+          }
+          .copyright .social_links .soc_icon{
+              font-size: 3.5rem;
+          }
+         
+       
+      }

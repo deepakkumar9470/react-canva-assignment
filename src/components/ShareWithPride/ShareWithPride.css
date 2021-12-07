@@ -1,0 +1,128 @@
+.shared_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+   
+ }
+ 
+ 
+ .left_image{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+ .left_image img{
+     /* margin-left: 2rem;
+     margin-right: 5rem; */
+     width: 100%;
+     height: 100%; 
+ }
+ 
+ .shared_text_container{
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     flex-direction: column;
+     margin-lef: 2rem;
+     padding: 5rem 0;
+ 
+ }
+ 
+ .shared_text_container h2{
+   font-family: 3.2rem;
+   font-weight: 700;
+   letter-spacing: -.05rem;
+   line-height: 2.3;
+ }
+ 
+ .shared_text_container p{
+     font-weight: 400;
+     line-height: 1.6;
+     margin: 1rem 0;
+ }
+ 
+ .design_Button{
+     width: 150px;
+     padding: 0.8rem 0.5rem;
+     background-color: var(--button-color);
+     color: #fff;
+     font-size: 0.9rem;
+     font-weight: 600;
+     margin-right: 0.4rem;
+     margin-top: 0.5rem;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+     outline: none;
+ }
+
+
+
+
+  
+@media screen and (max-width : 768px) {
+    .shared_container{
+        flex-direction: column;
+    }
+    .shared_container .left_image img {
+        margin-right: 1rem;
+    }
+    .shared_text_container h2{
+      font-size: 3.5rem;
+      padding: 1rem;
+      line-height: 1;
+     
+    }
+    .right_video video{
+        width: 700px;
+        height: 750px; 
+    }
+  
+    
+    .shared_text_container p{
+         font-size : 1.4rem;
+         padding-right:0.8rem;
+         margin-right: 1rem;
+         
+    }
+    .shared_container .design_Button{
+        width: 80%;
+        font-size: 1.4rem;
+        padding: 0.8rem;
+    }
+    }
+    
+    @media screen and (max-width : 500px) {
+        .shared_container{
+            flex-direction: column;
+        }
+        .shared_container .left_image img {
+            width: 100%;
+            height: 100%;
+           
+        }
+        .shared_text_container h2{
+          font-size: 4rem;
+          padding: 1rem;
+          line-height: 1;
+         
+        }
+        .right_video video{
+            width: 700px;
+            height: 750px; 
+        }
+      
+        
+        .shared_text_container p{
+             font-size : 1.6rem;
+             padding-right:0.8rem;
+             margin:2rem 1rem;
+             
+        }
+        .shared_container .design_Button{
+            width: 100%;
+            font-size: 1.6rem;
+            padding: 1rem;
+        }
+      }

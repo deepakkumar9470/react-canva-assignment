@@ -1,0 +1,117 @@
+.team_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 1rem 2rem;
+    
+ }
+ 
+ 
+ .team_card_text{
+    width: 100%;
+    display: flex;
+    margin:2rem 10rem;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+.team_container h2{
+    font-family: 3.2rem;
+    font-weight: 700;
+    letter-spacing: -.05rem;
+    line-height: 2.3;
+  }
+  .team_card{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    margin: 1rem 5rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+ 
+.team_card h3{
+   font-family: 2rem;
+   text-align: center;
+   font-weight: 700;
+   letter-spacing: -.05rem;
+   line-height: 2.3;
+ }
+ 
+
+
+ .team_card_text .team_card p{
+     font-size: 0.8rem;
+     font-weight: 500;
+     line-height: 1.6;
+     margin: 1rem 1rem;
+ }
+ 
+ .team_card button{
+     width: 100%;
+     padding: 0.8rem 0.5rem;
+     background-color: var(--button-color);
+     color: #fff;
+     font-size: 0.9rem;
+     font-weight: 600;
+     margin-right: 0.4rem;
+     margin-top: 0.5rem;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+     outline: none;
+ }
+
+ 
+@media screen and (max-width : 768px) {
+  .team_card{
+    flex-direction: column;
+  }
+  .team_card_text{
+      flex-direction: column;
+  }
+
+  .team_container h2{
+    font-size: 2.5rem;
+  }
+  .team_card h3{
+    font-size: 2.5rem;
+  }
+  .team_card_text .team_card p{
+    font-size: 1.5rem;
+  }
+
+  .team_container .team_card button{
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 1.8rem;
+  }
+
+  }
+  
+  @media screen and (max-width : 500px) {
+    .team_card{
+      flex-direction: column;
+    }
+    .team_card_text{
+        flex-direction: column;
+    }
+  
+    .team_container h2{
+      font-size: 2.5rem;
+    }
+    .team_card h3{
+      font-size: 3rem;
+    }
+    .team_card_text .team_card p{
+      font-size: 1.5rem;
+    }
+  
+    .team_container .team_card button{
+      width: 100%;
+      font-size: 1.5rem;
+      padding: 1.8rem 2rem;
+    }
+    }
